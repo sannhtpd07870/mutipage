@@ -1,0 +1,6 @@
+@mutipage.Server_HostAddress = http://localhost:5144
+
+GET {{mutipage.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
