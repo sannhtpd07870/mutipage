@@ -1,14 +1,17 @@
 import React from 'react';
 import "./style/product.css"
+import logo_solution from "../../../public/image/LOGO_K_SOLUTION.jpg"
+import logo_technical from "../../../public/image/LOGO TECHNICAL3.png"
+import logo_healthtech from "../../../public/image/LOGO K.HEA vang.png"
 
 function MutiProduct() {
     return (
         <>
         {/* Service Start */}
-        <div className="container-fluid bg-light mt-5 py-5">
+        <div className="container-fluid service mt-5 py-5">
           <div className="container py-5">
             <div className="row g-5 align-items-center">
-              <div className="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+              <div className="col-lg-12 wow fadeIn" data-wow-delay="0.1s">
                 <div className="btn btn-sm border rounded-pill text-primary px-3 mb-3">
                   Our Services
                 </div>
@@ -21,7 +24,7 @@ function MutiProduct() {
                   Tìm Hiểu Thêm
                 </a>
               </div>
-              <div className="col-lg-7">
+              <div className="col-lg-12">
                 <div className="row g-4">
                   <div className="col-md-6">
                     <div className="row g-4">
@@ -29,7 +32,7 @@ function MutiProduct() {
                         <div className="service-item d-flex flex-column justify-content-center text-center rounded">
                           <div className="service-icon btn-square">
                             <i>
-                              <img src="" alt="" />
+                              <img src={logo_solution} alt="" />
                             </i>
                           </div>
                           <h5 className="mb-3">K.SOLUTION</h5>
@@ -47,7 +50,9 @@ function MutiProduct() {
                       <div className="col-12 wow fadeIn" data-wow-delay="0.5s">
                         <div className="service-item d-flex flex-column justify-content-center text-center rounded">
                           <div className="service-icon btn-square">
-                            <i className="fa fa-power-off fa-2x" />
+                            <i>
+                              <img src={logo_technical} alt="" />
+                            </i>
                           </div>
                           <h5 className="mb-3">K.TECHNICAL</h5>
                           <p>
@@ -68,7 +73,7 @@ function MutiProduct() {
                         <div className="service-item d-flex flex-column justify-content-center text-center rounded">
                           <div className="service-icon btn-square">
                             <i>
-                              <img src="https://scontent.fdad1-3.fna.fbcdn.net/v/t39.30808-6/435096132_122113165796267763_5838034740634323068_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=UMTy_NMeIxIQ7kNvgEWoAxu&_nc_ht=scontent.fdad1-3.fna&oh=00_AfCGn42Ewc08zGOJJSKJEvMi9IObVfHwUaimaeghUmTUnQ&oe=6638FDD0" alt="" />
+                              <img src={logo_healthtech} alt="" />
                              </i>
                           </div>
                           <h5 className="mb-3"> K.HEALTHTECH</h5>
